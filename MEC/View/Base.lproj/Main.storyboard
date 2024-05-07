@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jId-Un-DJC">
+                                <rect key="frame" x="0.0" y="121" width="393" height="697"/>
+                                <subviews>
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vhp-RH-0nh">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                                        <color key="tintColor" name="NavyBlue"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="AYD-Vw-Wlf"/>
+                                        </connections>
+                                    </searchBar>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jAq-ic-pEt">
+                                        <rect key="frame" x="0.0" y="66" width="393" height="631"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vhp-RH-0nh" firstAttribute="leading" secondItem="jId-Un-DJC" secondAttribute="leading" id="7Kp-jP-eOB"/>
+                                    <constraint firstAttribute="trailing" secondItem="jAq-ic-pEt" secondAttribute="trailing" id="LEa-CV-CQW"/>
+                                    <constraint firstItem="vhp-RH-0nh" firstAttribute="top" secondItem="jId-Un-DJC" secondAttribute="top" id="NOG-Eb-bEq"/>
+                                    <constraint firstAttribute="trailing" secondItem="vhp-RH-0nh" secondAttribute="trailing" id="SGy-7x-yah"/>
+                                    <constraint firstAttribute="bottom" secondItem="jAq-ic-pEt" secondAttribute="bottom" id="jfj-MC-aan"/>
+                                    <constraint firstItem="jAq-ic-pEt" firstAttribute="leading" secondItem="jId-Un-DJC" secondAttribute="leading" id="omf-PD-hUH"/>
+                                </constraints>
+                            </stackView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXE-LF-M3U">
+                                <rect key="frame" x="0.0" y="59" width="393" height="62"/>
+                                <items>
+                                    <navigationItem title="Title" id="yZo-Mi-JJz">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="bell.fill" catalog="system" id="yC3-qo-Ety">
+                                            <color key="tintColor" name="NavyBlue"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Sqd-NC-YLJ">
+                                            <color key="tintColor" name="NavyBlue"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qXE-LF-M3U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CY0-qq-okx"/>
+                            <constraint firstItem="jId-Un-DJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ELw-kc-4Fy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jId-Un-DJC" secondAttribute="bottom" id="TCD-Oi-Q7t"/>
+                            <constraint firstItem="qXE-LF-M3U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VME-QN-fgX"/>
+                            <constraint firstItem="jId-Un-DJC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z5y-VG-lHs"/>
+                            <constraint firstItem="jId-Un-DJC" firstAttribute="top" secondItem="qXE-LF-M3U" secondAttribute="bottom" id="ndY-TA-LR2"/>
+                            <constraint firstItem="qXE-LF-M3U" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ohg-hn-oKP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell.fill" catalog="system" width="123" height="128"/>
+        <namedColor name="NavyBlue">
+            <color red="0.19607843137254902" green="0.29019607843137252" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

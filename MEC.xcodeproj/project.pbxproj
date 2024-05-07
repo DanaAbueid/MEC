@@ -7,25 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15F28C82BE16257002A0398 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15F28C72BE16257002A0398 /* Storyboard.storyboard */; };
+		A15F28CA2BE163F0002A0398 /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28C92BE163F0002A0398 /* CustomersViewController.swift */; };
+		A15F28CC2BE1640A002A0398 /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28CB2BE1640A002A0398 /* MaintenanceViewController.swift */; };
+		A15F28CE2BE16434002A0398 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28CD2BE16434002A0398 /* EmployeesViewController.swift */; };
+		A15F28D02BE16448002A0398 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28CF2BE16448002A0398 /* SettingsViewController.swift */; };
+		A15F28D22BE18172002A0398 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28D12BE18172002A0398 /* TabBarViewController.swift */; };
+		A15F28D72BE18C10002A0398 /* AuthManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28D62BE18C10002A0398 /* AuthManagers.swift */; };
+		A15F28D92BE18C35002A0398 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28D82BE18C35002A0398 /* APICaller.swift */; };
+		A1997BE72BEA9F7C0047EC79 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BE62BEA9F7C0047EC79 /* Factories.swift */; };
+		A1997BEA2BEAA1B80047EC79 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A1997BE92BEAA1B80047EC79 /* IQKeyboardManagerSwift */; };
+		A1997BEC2BEAC57D0047EC79 /* CustomersInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */; };
+		A1997BEE2BEAC5D80047EC79 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BED2BEAC5D80047EC79 /* Protocols.swift */; };
 		A1BE306F2BD5C11B001ACE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */; };
-		A1BE30712BD5C11C001ACE50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30702BD5C11C001ACE50 /* SceneDelegate.swift */; };
-		A1BE30732BD5C11C001ACE50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30722BD5C11C001ACE50 /* ViewController.swift */; };
-		A1BE30762BD5C11C001ACE50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30752BD5C11C001ACE50 /* Base */; };
 		A1BE30792BD5C11C001ACE50 /* MEC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30772BD5C11C001ACE50 /* MEC.xcdatamodeld */; };
 		A1BE307B2BD5C11E001ACE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BE307A2BD5C11E001ACE50 /* Assets.xcassets */; };
-		A1BE307E2BD5C11E001ACE50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1BE307D2BD5C11E001ACE50 /* Base */; };
+		A1BE308D2BD5C218001ACE50 /* DMSans-Italic-VariableFont_opsz,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30852BD5C218001ACE50 /* DMSans-Italic-VariableFont_opsz,wght.ttf */; };
+		A1BE308E2BD5C218001ACE50 /* DMSans-VariableFont_opsz,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30862BD5C218001ACE50 /* DMSans-VariableFont_opsz,wght.ttf */; };
+		A1BE308F2BD5C218001ACE50 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30872BD5C218001ACE50 /* Poppins-Bold.ttf */; };
+		A1BE30902BD5C218001ACE50 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30882BD5C218001ACE50 /* Poppins-Medium.ttf */; };
+		A1BE30912BD5C218001ACE50 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE30892BD5C218001ACE50 /* Poppins-Regular.ttf */; };
+		A1BE30922BD5C218001ACE50 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE308A2BD5C218001ACE50 /* Poppins-SemiBold.ttf */; };
+		A1BE30932BD5C218001ACE50 /* ReenieBeanie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE308B2BD5C218001ACE50 /* ReenieBeanie-Regular.ttf */; };
+		A1BE30982BD5C220001ACE50 /* UIShowHideTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30952BD5C220001ACE50 /* UIShowHideTextField.swift */; };
+		A1BE30A12BD5C262001ACE50 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30992BD5C262001ACE50 /* DemoViewController.swift */; };
+		A1BE30A22BD5C262001ACE50 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE309A2BD5C262001ACE50 /* ForgotPasswordViewController.swift */; };
+		A1BE30A32BD5C262001ACE50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE309B2BD5C262001ACE50 /* LoginViewController.swift */; };
+		A1BE30A42BD5C262001ACE50 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE309C2BD5C262001ACE50 /* OnboardingViewController.swift */; };
+		A1BE30A62BD5C262001ACE50 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE309E2BD5C262001ACE50 /* SignUpViewController.swift */; };
+		A1BE30A72BD5C262001ACE50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE309F2BD5C262001ACE50 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A15F28C72BE16257002A0398 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A15F28C92BE163F0002A0398 /* CustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewController.swift; sourceTree = "<group>"; };
+		A15F28CB2BE1640A002A0398 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		A15F28CD2BE16434002A0398 /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		A15F28CF2BE16448002A0398 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A15F28D12BE18172002A0398 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A15F28D62BE18C10002A0398 /* AuthManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManagers.swift; sourceTree = "<group>"; };
+		A15F28D82BE18C35002A0398 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A1997BE62BEA9F7C0047EC79 /* Factories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersInfoViewController.swift; sourceTree = "<group>"; };
+		A1997BED2BEAC5D80047EC79 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		A1BE306B2BD5C11B001ACE50 /* MEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1BE30702BD5C11C001ACE50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1BE30722BD5C11C001ACE50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1BE30752BD5C11C001ACE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1BE30782BD5C11C001ACE50 /* MEC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEC.xcdatamodel; sourceTree = "<group>"; };
 		A1BE307A2BD5C11E001ACE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BE307D2BD5C11E001ACE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BE307F2BD5C11E001ACE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BE30852BD5C218001ACE50 /* DMSans-Italic-VariableFont_opsz,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Italic-VariableFont_opsz,wght.ttf"; sourceTree = "<group>"; };
+		A1BE30862BD5C218001ACE50 /* DMSans-VariableFont_opsz,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-VariableFont_opsz,wght.ttf"; sourceTree = "<group>"; };
+		A1BE30872BD5C218001ACE50 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A1BE30882BD5C218001ACE50 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		A1BE30892BD5C218001ACE50 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A1BE308A2BD5C218001ACE50 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		A1BE308B2BD5C218001ACE50 /* ReenieBeanie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReenieBeanie-Regular.ttf"; sourceTree = "<group>"; };
+		A1BE30952BD5C220001ACE50 /* UIShowHideTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIShowHideTextField.swift; sourceTree = "<group>"; };
+		A1BE30992BD5C262001ACE50 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		A1BE309A2BD5C262001ACE50 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		A1BE309B2BD5C262001ACE50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1BE309C2BD5C262001ACE50 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A1BE309E2BD5C262001ACE50 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A1BE309F2BD5C262001ACE50 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +77,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1997BEA2BEAA1B80047EC79 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A15F28D32BE18A8F002A0398 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE30992BD5C262001ACE50 /* DemoViewController.swift */,
+				A1BE309C2BD5C262001ACE50 /* OnboardingViewController.swift */,
+				A15F28D12BE18172002A0398 /* TabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A15F28D42BE18BBF002A0398 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE307A2BD5C11E001ACE50 /* Assets.xcassets */,
+				A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A15F28D52BE18BF0002A0398 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A15F28D62BE18C10002A0398 /* AuthManagers.swift */,
+				A15F28D82BE18C35002A0398 /* APICaller.swift */,
+				A1997BED2BEAC5D80047EC79 /* Protocols.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A15F28DA2BE18C6D002A0398 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE309A2BD5C262001ACE50 /* ForgotPasswordViewController.swift */,
+				A1BE309B2BD5C262001ACE50 /* LoginViewController.swift */,
+				A1BE309E2BD5C262001ACE50 /* SignUpViewController.swift */,
+				A1BE309F2BD5C262001ACE50 /* ViewController.swift */,
+				A15F28C92BE163F0002A0398 /* CustomersViewController.swift */,
+				A15F28CB2BE1640A002A0398 /* MaintenanceViewController.swift */,
+				A15F28CD2BE16434002A0398 /* EmployeesViewController.swift */,
+				A15F28CF2BE16448002A0398 /* SettingsViewController.swift */,
+				A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		A1BE30622BD5C11B001ACE50 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +148,57 @@
 		A1BE306D2BD5C11B001ACE50 /* MEC */ = {
 			isa = PBXGroup;
 			children = (
-				A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */,
-				A1BE30702BD5C11C001ACE50 /* SceneDelegate.swift */,
-				A1BE30722BD5C11C001ACE50 /* ViewController.swift */,
-				A1BE30742BD5C11C001ACE50 /* Main.storyboard */,
-				A1BE307A2BD5C11E001ACE50 /* Assets.xcassets */,
-				A1BE307C2BD5C11E001ACE50 /* LaunchScreen.storyboard */,
+				A15F28D52BE18BF0002A0398 /* Managers */,
+				A15F28D42BE18BBF002A0398 /* Resources */,
+				A1BE308C2BD5C218001ACE50 /* Fonts */,
+				A1BE30A02BD5C262001ACE50 /* Controllers */,
+				A1BE30962BD5C220001ACE50 /* Model */,
+				A1BE30A82BD5C283001ACE50 /* View */,
 				A1BE307F2BD5C11E001ACE50 /* Info.plist */,
 				A1BE30772BD5C11C001ACE50 /* MEC.xcdatamodeld */,
 			);
 			path = MEC;
+			sourceTree = "<group>";
+		};
+		A1BE308C2BD5C218001ACE50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE30852BD5C218001ACE50 /* DMSans-Italic-VariableFont_opsz,wght.ttf */,
+				A1BE30862BD5C218001ACE50 /* DMSans-VariableFont_opsz,wght.ttf */,
+				A1BE30872BD5C218001ACE50 /* Poppins-Bold.ttf */,
+				A1BE30882BD5C218001ACE50 /* Poppins-Medium.ttf */,
+				A1BE30892BD5C218001ACE50 /* Poppins-Regular.ttf */,
+				A1BE308A2BD5C218001ACE50 /* Poppins-SemiBold.ttf */,
+				A1BE308B2BD5C218001ACE50 /* ReenieBeanie-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1BE30962BD5C220001ACE50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE30952BD5C220001ACE50 /* UIShowHideTextField.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BE30A02BD5C262001ACE50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A15F28DA2BE18C6D002A0398 /* Other */,
+				A15F28D32BE18A8F002A0398 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1BE30A82BD5C283001ACE50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE307C2BD5C11E001ACE50 /* LaunchScreen.storyboard */,
+				A1997BE62BEA9F7C0047EC79 /* Factories.swift */,
+				A15F28C72BE16257002A0398 /* Storyboard.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +217,9 @@
 			dependencies = (
 			);
 			name = MEC;
+			packageProductDependencies = (
+				A1997BE92BEAA1B80047EC79 /* IQKeyboardManagerSwift */,
+			);
 			productName = MEC;
 			productReference = A1BE306B2BD5C11B001ACE50 /* MEC.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +248,9 @@
 				Base,
 			);
 			mainGroup = A1BE30622BD5C11B001ACE50;
+			packageReferences = (
+				A1997BE82BEAA1B80047EC79 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = A1BE306C2BD5C11B001ACE50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +265,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BE308D2BD5C218001ACE50 /* DMSans-Italic-VariableFont_opsz,wght.ttf in Resources */,
+				A1BE30902BD5C218001ACE50 /* Poppins-Medium.ttf in Resources */,
+				A15F28C82BE16257002A0398 /* Storyboard.storyboard in Resources */,
+				A1BE308F2BD5C218001ACE50 /* Poppins-Bold.ttf in Resources */,
+				A1BE308E2BD5C218001ACE50 /* DMSans-VariableFont_opsz,wght.ttf in Resources */,
 				A1BE307B2BD5C11E001ACE50 /* Assets.xcassets in Resources */,
-				A1BE307E2BD5C11E001ACE50 /* Base in Resources */,
-				A1BE30762BD5C11C001ACE50 /* Base in Resources */,
+				A1BE30932BD5C218001ACE50 /* ReenieBeanie-Regular.ttf in Resources */,
+				A1BE30922BD5C218001ACE50 /* Poppins-SemiBold.ttf in Resources */,
+				A1BE30912BD5C218001ACE50 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +284,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BE30732BD5C11C001ACE50 /* ViewController.swift in Sources */,
+				A1997BE72BEA9F7C0047EC79 /* Factories.swift in Sources */,
+				A15F28CC2BE1640A002A0398 /* MaintenanceViewController.swift in Sources */,
+				A1BE30A32BD5C262001ACE50 /* LoginViewController.swift in Sources */,
+				A1BE30A22BD5C262001ACE50 /* ForgotPasswordViewController.swift in Sources */,
+				A15F28CE2BE16434002A0398 /* EmployeesViewController.swift in Sources */,
+				A1BE30982BD5C220001ACE50 /* UIShowHideTextField.swift in Sources */,
+				A1997BEC2BEAC57D0047EC79 /* CustomersInfoViewController.swift in Sources */,
 				A1BE30792BD5C11C001ACE50 /* MEC.xcdatamodeld in Sources */,
+				A1BE30A62BD5C262001ACE50 /* SignUpViewController.swift in Sources */,
+				A1997BEE2BEAC5D80047EC79 /* Protocols.swift in Sources */,
+				A15F28D02BE16448002A0398 /* SettingsViewController.swift in Sources */,
+				A1BE30A72BD5C262001ACE50 /* ViewController.swift in Sources */,
+				A15F28CA2BE163F0002A0398 /* CustomersViewController.swift in Sources */,
+				A1BE30A12BD5C262001ACE50 /* DemoViewController.swift in Sources */,
+				A1BE30A42BD5C262001ACE50 /* OnboardingViewController.swift in Sources */,
+				A15F28D72BE18C10002A0398 /* AuthManagers.swift in Sources */,
+				A15F28D92BE18C35002A0398 /* APICaller.swift in Sources */,
+				A15F28D22BE18172002A0398 /* TabBarViewController.swift in Sources */,
 				A1BE306F2BD5C11B001ACE50 /* AppDelegate.swift in Sources */,
-				A1BE30712BD5C11C001ACE50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1BE30742BD5C11C001ACE50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1BE30752BD5C11C001ACE50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1BE307C2BD5C11E001ACE50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,11 +449,14 @@
 				DEVELOPMENT_TEAM = RPYN77J96Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MEC/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Marmara;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +464,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DanaDeve.MEC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,11 +484,14 @@
 				DEVELOPMENT_TEAM = RPYN77J96Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MEC/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Marmara;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +499,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DanaDeve.MEC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,6 +531,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1997BE82BEAA1B80047EC79 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1997BE92BEAA1B80047EC79 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1997BE82BEAA1B80047EC79 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A1BE30772BD5C11C001ACE50 /* MEC.xcdatamodeld */ = {
