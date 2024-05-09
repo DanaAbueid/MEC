@@ -142,3 +142,56 @@ extension UITextField {
     
 }
     
+// MARK: - Tabel cell setup
+
+func setTable(_ table: UITableView)  {
+    
+  //  table.layer.cornerRadius = 8
+    table.clipsToBounds = true
+    table.separatorStyle = .none
+    table.rowHeight = 80
+//    table.contentInset = UIEdgeInsets(top: 5, left: 2, bottom: 5, right: 2)
+    table.tintColor = .drakNavy
+    table.backgroundColor = .appWhite
+    
+}
+
+func setCell (_ cell: UITableViewCell, WithText text: String?) {
+    
+    cell.layer.cornerRadius = 15
+  //  cell.accessoryType = .disclosureIndicator
+    cell.backgroundColor = .lighterGray
+    cell.tintColor = .drakNavy
+    cell.textLabel?.textColor = .drakNavy
+    cell.textLabel?.text = text
+    cell.layer.borderColor = UIColor.white.cgColor
+    cell.clipsToBounds = true
+   cell.layer.borderWidth = 3.0
+    let disclosureIndicatorView = UIImageView(image: UIImage(systemName: "chevron.right"))
+    disclosureIndicatorView.tintColor = .drakNavy // Set your desired color
+  //  disclosureIndicatorView.backgroundColor = .lighterGray
+     cell.accessoryView = disclosureIndicatorView
+}
+
+func setVerticalStack(withStack stack: UIStackView, withSpacing space: CGFloat) {
+    stack.translatesAutoresizingMaskIntoConstraints = false
+    stack.axis = .vertical
+    stack.alignment = .fill
+    stack.distribution = .fill
+    stack.spacing = space
+    
+}
+
+func setSearchBar (_ searchBar: UISearchBar){
+    
+    searchBar.barTintColor = .appWhite
+    if let leftView = searchBar.searchTextField.leftView as? UIImageView {
+        leftView.tintColor = .drakNavy // Change the color to your desired color
+    }
+
+    searchBar.searchTextField.backgroundColor = .lighterGray
+    searchBar.searchTextField.textColor = .drakNavy
+    searchBar.tintColor = .drakNavy
+   
+    
+}

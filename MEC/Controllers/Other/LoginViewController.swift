@@ -86,10 +86,11 @@ extension LoginViewController {
     
     private func styleTextField(_ textField: UITextField, withText text: String) {
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.backgroundColor = .gray5
+        textField.backgroundColor = .systemGray6
         textField.placeholder = text
         textField.layer.cornerRadius = 8
         textField.tintColor = .navyBlue
+        
     }
     
     // MARK: - UI Setup

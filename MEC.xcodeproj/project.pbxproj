@@ -17,8 +17,11 @@
 		A15F28D92BE18C35002A0398 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15F28D82BE18C35002A0398 /* APICaller.swift */; };
 		A1997BE72BEA9F7C0047EC79 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BE62BEA9F7C0047EC79 /* Factories.swift */; };
 		A1997BEA2BEAA1B80047EC79 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A1997BE92BEAA1B80047EC79 /* IQKeyboardManagerSwift */; };
-		A1997BEC2BEAC57D0047EC79 /* CustomersInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */; };
+		A1997BEC2BEAC57D0047EC79 /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BEB2BEAC57D0047EC79 /* AddCustomerViewController.swift */; };
 		A1997BEE2BEAC5D80047EC79 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BED2BEAC5D80047EC79 /* Protocols.swift */; };
+		A1997BF02BEADDD90047EC79 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BEF2BEADDD90047EC79 /* Customer.swift */; };
+		A1997BF32BEADE440047EC79 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A1997BF22BEADE440047EC79 /* Alamofire */; };
+		A1997BF52BEAECBA0047EC79 /* CustomerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1997BF42BEAECBA0047EC79 /* CustomerInfoViewController.swift */; };
 		A1BE306F2BD5C11B001ACE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */; };
 		A1BE30792BD5C11C001ACE50 /* MEC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1BE30772BD5C11C001ACE50 /* MEC.xcdatamodeld */; };
 		A1BE307B2BD5C11E001ACE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BE307A2BD5C11E001ACE50 /* Assets.xcassets */; };
@@ -48,8 +51,10 @@
 		A15F28D62BE18C10002A0398 /* AuthManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManagers.swift; sourceTree = "<group>"; };
 		A15F28D82BE18C35002A0398 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		A1997BE62BEA9F7C0047EC79 /* Factories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
-		A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersInfoViewController.swift; sourceTree = "<group>"; };
+		A1997BEB2BEAC57D0047EC79 /* AddCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
 		A1997BED2BEAC5D80047EC79 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		A1997BEF2BEADDD90047EC79 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		A1997BF42BEAECBA0047EC79 /* CustomerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoViewController.swift; sourceTree = "<group>"; };
 		A1BE306B2BD5C11B001ACE50 /* MEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE306E2BD5C11B001ACE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BE30782BD5C11C001ACE50 /* MEC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEC.xcdatamodel; sourceTree = "<group>"; };
@@ -78,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1997BEA2BEAA1B80047EC79 /* IQKeyboardManagerSwift in Frameworks */,
+				A1997BF32BEADE440047EC79 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +130,8 @@
 				A15F28CB2BE1640A002A0398 /* MaintenanceViewController.swift */,
 				A15F28CD2BE16434002A0398 /* EmployeesViewController.swift */,
 				A15F28CF2BE16448002A0398 /* SettingsViewController.swift */,
-				A1997BEB2BEAC57D0047EC79 /* CustomersInfoViewController.swift */,
+				A1997BEB2BEAC57D0047EC79 /* AddCustomerViewController.swift */,
+				A1997BF42BEAECBA0047EC79 /* CustomerInfoViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				A1BE30952BD5C220001ACE50 /* UIShowHideTextField.swift */,
+				A1997BEF2BEADDD90047EC79 /* Customer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			name = MEC;
 			packageProductDependencies = (
 				A1997BE92BEAA1B80047EC79 /* IQKeyboardManagerSwift */,
+				A1997BF22BEADE440047EC79 /* Alamofire */,
 			);
 			productName = MEC;
 			productReference = A1BE306B2BD5C11B001ACE50 /* MEC.app */;
@@ -250,6 +259,7 @@
 			mainGroup = A1BE30622BD5C11B001ACE50;
 			packageReferences = (
 				A1997BE82BEAA1B80047EC79 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				A1997BF12BEADE430047EC79 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = A1BE306C2BD5C11B001ACE50 /* Products */;
 			projectDirPath = "";
@@ -290,11 +300,12 @@
 				A1BE30A22BD5C262001ACE50 /* ForgotPasswordViewController.swift in Sources */,
 				A15F28CE2BE16434002A0398 /* EmployeesViewController.swift in Sources */,
 				A1BE30982BD5C220001ACE50 /* UIShowHideTextField.swift in Sources */,
-				A1997BEC2BEAC57D0047EC79 /* CustomersInfoViewController.swift in Sources */,
+				A1997BEC2BEAC57D0047EC79 /* AddCustomerViewController.swift in Sources */,
 				A1BE30792BD5C11C001ACE50 /* MEC.xcdatamodeld in Sources */,
 				A1BE30A62BD5C262001ACE50 /* SignUpViewController.swift in Sources */,
 				A1997BEE2BEAC5D80047EC79 /* Protocols.swift in Sources */,
 				A15F28D02BE16448002A0398 /* SettingsViewController.swift in Sources */,
+				A1997BF02BEADDD90047EC79 /* Customer.swift in Sources */,
 				A1BE30A72BD5C262001ACE50 /* ViewController.swift in Sources */,
 				A15F28CA2BE163F0002A0398 /* CustomersViewController.swift in Sources */,
 				A1BE30A12BD5C262001ACE50 /* DemoViewController.swift in Sources */,
@@ -303,6 +314,7 @@
 				A15F28D92BE18C35002A0398 /* APICaller.swift in Sources */,
 				A15F28D22BE18172002A0398 /* TabBarViewController.swift in Sources */,
 				A1BE306F2BD5C11B001ACE50 /* AppDelegate.swift in Sources */,
+				A1997BF52BEAECBA0047EC79 /* CustomerInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +553,14 @@
 				minimumVersion = 7.0.3;
 			};
 		};
+		A1997BF12BEADE430047EC79 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -548,6 +568,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A1997BE82BEAA1B80047EC79 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		A1997BF22BEADE440047EC79 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1997BF12BEADE430047EC79 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 

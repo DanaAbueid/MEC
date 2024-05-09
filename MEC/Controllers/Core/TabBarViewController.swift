@@ -80,7 +80,40 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         let vc4 = SettingsViewController()
         vc4.tabBarItem = UITabBarItem(title: "Settings", image: settings , selectedImage: settingsSelected)
 
-        setViewControllers([vc1, vc2, vc3, vc4], animated: true)
+        
+        let nav1 = UINavigationController(rootViewController: vc1)
+        nav1.title = "Customers"
+        nav1.navigationBar.tintColor = .drakNavy
+        nav1.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.navyBlue // Change the color as needed
+        ]
+
+        let nav2 = UINavigationController(rootViewController: vc2)
+        nav2.title = "Maintenance"
+        nav2.navigationBar.tintColor = .drakNavy
+        nav2.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.navyBlue // Change the color as needed
+        ]
+
+        let nav3 = UINavigationController(rootViewController: vc3)
+        nav3.title = "Employee"
+        nav3.navigationBar.tintColor = .drakNavy
+        nav3.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.navyBlue // Change the color as needed
+        ]
+
+
+        let nav4 = UINavigationController(rootViewController: vc4)
+        nav4.title = "Settings"
+        nav4.navigationBar.tintColor = .drakNavy
+        nav4.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.navyBlue // Change the color as needed
+        ]
+
+        
+        
+        
+        setViewControllers([nav1, nav2, nav3, nav4], animated: true)
     
     }
     
@@ -92,7 +125,7 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     // MARK: - Setting Tab Bar Delegate
 
     
-    
+    /*
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
            // Get the selected view controller's index
            if let selectedIndex = tabBarController.viewControllers?.firstIndex(of: viewController) {
@@ -132,5 +165,5 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
            }
        }
     
-
+*/
 }

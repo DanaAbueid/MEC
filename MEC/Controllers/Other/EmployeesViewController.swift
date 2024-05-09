@@ -12,6 +12,7 @@ class EmployeesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Employees"
+        navigationController?.toolbar.tintColor = .navyBlue
 
         // Do any additional setup after loading the view.
     }

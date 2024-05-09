@@ -21,47 +21,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .appWhite
+        
         let navigationController = UINavigationController(rootViewController: DemoViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil))
-        window?.rootViewController = navigationController
+        
         navigationController.navigationBar.tintColor = .drakNavy
-     //   navigationController.title = "Marmara"
-        
-        
-        // Call the setupTabBarController method
-      //  setupTabBarController(in: navigationController)
-        
+   
+        // MARK: IQKeyboardManager
+
         IQKeyboardManager.shared.enable = true
+        
+        // MARK: Navigation
+        
+      //  window?.rootViewController = navigationController
+        window?.rootViewController = TabBarViewController()
+
+        /*
+        if AuthManager.shared.isSignedIn{
+            
+            window?.rootViewController = TabBarViewController()
+
+            else
+                window?.rootViewController = navigationController
+
+        }
+*/
+        
         
         return true
     }
     
-    func setupTabBarController(in navigationController: UINavigationController) {
-        let tabBarController = UITabBarController()
-        
-        // Create view controllers for each tab
-        let firstViewController = CustomersViewController()
-        firstViewController.view.backgroundColor = .red
-        firstViewController.tabBarItem = UITabBarItem(title: "Customers", image: nil, selectedImage: nil)
-        
-        let secondViewController = MaintenanceViewController()
-        secondViewController.view.backgroundColor = .blue
-        secondViewController.tabBarItem = UITabBarItem(title: "Maintenance", image: nil, selectedImage: nil)
-        
-        let thirdViewController = EmployeesViewController()
-        thirdViewController.view.backgroundColor = .blue
-        thirdViewController.tabBarItem = UITabBarItem(title: "Employee", image: nil, selectedImage: nil)
-        
-        let fourthViewController = SettingsViewController()
-        fourthViewController.view.backgroundColor = .blue
-        fourthViewController.tabBarItem = UITabBarItem(title: "Settings", image: nil, selectedImage: nil)
-        
-        
-        tabBarController.viewControllers = [firstViewController, secondViewController, thirdViewController, fourthViewController]
-                
-               navigationController.toolbar.isTranslucent = false
-               navigationController.toolbar.barTintColor = .white
-               navigationController.toolbar.setItems(tabBarController.toolbarItems, animated: false)
-    }
+
     // MARK: UISceneSession Lifecycle
 //
 //    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

@@ -12,6 +12,8 @@ class MaintenanceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Maintenance"
+        navigationController?.toolbar.tintColor = .navyBlue
+
 
 
         // Do any additional setup after loading the view.

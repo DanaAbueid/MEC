@@ -9,5 +9,6 @@ import Foundation
 
 
 protocol SaveCustomerViewControllerDelegate: AnyObject {
-    func add(Customer: String)
+    func addCustomerSuccessful()
+
 }
